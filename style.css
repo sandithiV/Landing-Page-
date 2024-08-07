@@ -39,7 +39,18 @@ body {
 }
 
 .hero .btn {
-  padding: 0.75rem 2rem;
+  padding: 0.75rem 3rem;
+  border: 2px solid #000000;
+  background-color: transparent;
+  color: #000000;
+  transition: all 0.3s ease;
+  outline: none;
+}
+
+.hero .btn:hover {
+  background-color: #F2D1D1;
+  color: #ffffff;
+  border-color: #F2D1D1;
 }
 
 .hero img {
@@ -50,54 +61,63 @@ body {
 /* Winter Sale Section Styles */
 .winter-sale {
   padding: 4rem 0;
+  background-color: #f8f9fa;
 }
 
 .winter-sale h2 {
-  text-align: center;
-  margin-bottom: 2rem;
   font-size: 2.5rem;
   font-weight: bold;
+  margin-bottom: 2rem;
 }
 
 .winter-sale-card {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  margin-bottom: 2rem;
+  border: none;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.winter-sale-card:hover {
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
 }
 
 .winter-sale-card .card-img-top {
-  width: 100%;
-  height: 200px;
+  height: 250px;
   object-fit: cover;
 }
 
 .winter-sale-card .card-body {
-  flex-grow: 1;
-  display: flex;
-  flex-direction: column;
+  padding: 1rem;
 }
 
 .winter-sale-card .card-title {
-  font-size: 1.2rem;
+  font-size: 1rem;
   font-weight: bold;
+  margin-bottom: 0.5rem;
 }
 
 .winter-sale-card .card-text {
   font-size: 1rem;
-  color: #666;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 1rem;
 }
 
-.winter-sale-card .btn-group {
-  margin-top: auto;
+.winter-sale-card .btn-outline-dark {
+  border-color: #333;
+  color: #333;
 }
 
-.winter-sale-card .btn-outline-secondary {
-  margin-right: 0.5rem;
+.winter-sale-card .btn-outline-dark:hover {
+  background-color: #F2D1D1;
+  border-color: #F2D1D1;
+  color: #fff;
 }
 
-.winter-sale .btn-secondary {
-  margin-top: 1rem;
+.winter-sale-card .btn-link {
+  color: #333;
+  padding: 0;
+  margin-left: 0.5rem;
 }
 
 
@@ -213,7 +233,7 @@ body {
 }
 
 .best-seller .card:hover {
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 8px #F2D1D1;
 }
 
 .best-seller .card-img-top {
@@ -278,11 +298,11 @@ body {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.7);
+  background-color: #ffff;
 }
 
 .newsletter .container {
-  background-color: rgba(34, 34, 34, 0.8);
+  background-color: #F2D1D1;
   border-radius: 20px;
   padding: 40px;
   max-width: 900px;
@@ -297,7 +317,7 @@ body {
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 20px;
-  color: #FFA500;
+  color: #040404;
 }
 
 .newsletter p {
@@ -327,7 +347,7 @@ body {
 }
 
 .newsletter .btn-primary {
-  background-color: #FFA500;
+  background-color: #FF8E8F;
   border: none;
   padding: 15px 25px;
 }
