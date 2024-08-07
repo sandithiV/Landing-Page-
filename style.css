@@ -219,18 +219,22 @@ body {
 
 .countdown {
   display: flex;
-  gap: 20px;
-  margin-bottom: 30px;
+  justify-content: space-around;
+  margin: 20px 0;
 }
 
 .countdown-item {
   text-align: center;
 }
 
-.countdown-item span:first-child {
-  font-size: 2.5rem;
-  font-weight: bold;
+.countdown-item span {
   display: block;
+  color: #ffffff;
+}
+
+.countdown-item span:first-child {
+  font-size: 2em;
+  font-weight: bold;
 }
 
 .collaboration-buttons {
