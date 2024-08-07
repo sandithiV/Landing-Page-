@@ -1,0 +1,173 @@
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Navbar Styles */
+  .navbar {
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+  }
+  
+  .nav-link {
+    margin-right: 1rem;
+  }
+  
+  /* Hero Section Styles */
+  .hero {
+    background: #f9f9f9;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .hero .btn {
+    padding: 0.75rem 2rem;
+  }
+  
+  /* Winter Sale Section Styles */
+  .winter-sale {
+    padding: 4rem 0;
+  }
+  
+  .winter-sale h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .card {
+    margin-bottom: 2rem;
+  }
+  
+  .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  .btn-outline-secondary {
+    margin-right: 0.5rem;
+  }
+  
+  /* Collaboration Section Styles */
+  .collaboration {
+    background: #f1f1f1;
+    padding: 4rem 0;
+  }
+  
+  .collaboration h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  /* Best Seller Section Styles */
+  .best-seller {
+    padding: 4rem 0;
+  }
+  
+  .best-seller h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+  }
+  
+  .best-seller .card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .best-seller .card-text {
+    font-size: 1rem;
+    color: #666;
+  }
+  
+  /* Newsletter Section Styles */
+  .newsletter {
+    background: #333;
+    color: #fff;
+    padding: 4rem 0;
+    text-align: center;
+  }
+  
+  .newsletter h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .newsletter p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  
+  .newsletter .form-control {
+    width: auto;
+    display: inline-block;
+  }
+  
+  .newsletter .btn {
+    padding: 0.75rem 2rem;
+  }
+  
+  /* Footer Styles */
+  .footer {
+    background: #222;
+    color: #ccc;
+    padding: 2rem 0;
+  }
+  
+  .footer h5 {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+  
+  .footer p, .footer ul, .footer li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer ul {
+    margin-bottom: 1rem;
+  }
+  
+  .footer a {
+    color: #ccc;
+    text-decoration: none;
+  }
+  
+  .footer a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer .list-inline {
+    padding-top: 1rem;
+  }
+  
+  .footer .list-inline-item {
+    margin-right: 1rem;
+  }
+  
