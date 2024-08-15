@@ -1,5 +1,5 @@
 function updateCountdown() {
-  const launchDate = new Date("August 12, 2024 00:00:00").getTime();
+  const launchDate = new Date("August 20, 2024 00:00:00").getTime();
   const now = new Date().getTime();
   const distance = launchDate - now;
 
